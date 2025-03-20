@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="snare_data" version="1.3.0" audacityversion="2.0.5" sel0="0.1920087575" sel1="0.1920087575" vpos="0" h="0.0000000000" zoom="1895.7468643101" rate="44100.0">
+	<tags/>
+	<wavetrack name="kick" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="17539">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000c21.au" len="17539" min="-0.140481" max="0.170277" rms="0.005668"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="kick" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="17539">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000057.au" len="17539" min="-0.112407" max="0.178083" rms="0.005396"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="noise" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="22050" gain="0.316228" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="8770">
+				<waveblock start="0">
+					<simpleblockfile filename="e00000f6.au" len="8770" min="-0.012527" max="0.011058" rms="0.001096"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="snare2" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00478458">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="17328">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000307.au" len="17328" min="-0.043631" max="0.053546" rms="0.004756"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="snare2" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00478458">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="17328">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000f84.au" len="17328" min="-0.051525" max="0.054028" rms="0.005138"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
